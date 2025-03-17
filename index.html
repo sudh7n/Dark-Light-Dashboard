@@ -1,0 +1,249 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+    <title>Frontend Mentor | [Challenge Name Here]</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <header>
+        <div class="head-left">
+          <h1 class="head-title">Social Media Dashboard</h1>
+          <p class="sub-heading">Total Followers: 23,004</p>
+        </div>
+        <div class="head-right">
+          <label for="darkMode">Dark Mode</label>
+          <label class="dark-mode-switch">
+            <input type="checkbox" id="theme-toggle" />
+            <span class="slider"></span>
+          </label>
+        </div>
+      </header>
+
+      <section class="main-flex-container">
+        <div class="flex-card facebook">
+          <div class="userid inline">
+            <img src="./images/icon-facebook.svg" alt="facebook-icon" />
+            <p>@nathanf</p>
+          </div>
+          <div class="followers">
+            <p class="followers-count">1987</p>
+            <p class="followers-subtext">FOLLOWERS</p>
+          </div>
+          <div class="change positive-color inline">
+            <img src="./images/icon-up.svg" alt="up icon" />
+            <p>12 Today</p>
+          </div>
+        </div>
+
+        <div class="flex-card twitter">
+          <div class="userid inline">
+            <img src="./images/icon-twitter.svg" alt="twitter-icon" />
+            <p>@nathanf</p>
+          </div>
+          <div class="followers">
+            <p class="followers-count">1044</p>
+            <p class="followers-subtext">FOLLOWERS</p>
+          </div>
+          <div class="change positive-color inline">
+            <img src="./images/icon-up.svg" alt="up icon" />
+            <p>99 Today</p>
+          </div>
+        </div>
+
+        <div class="flex-card instagram">
+          <div class="userid inline">
+            <img src="./images/icon-instagram.svg" alt="instagram-icon" />
+            <p>@realnathanf</p>
+          </div>
+          <div class="followers">
+            <p class="followers-count">11k</p>
+            <p class="followers-subtext">FOLLOWERS</p>
+          </div>
+          <div class="change positive-color inline">
+            <img src="./images/icon-up.svg" alt="up icon" />
+            <p>1099 Today</p>
+          </div>
+        </div>
+
+        <div class="flex-card youtube">
+          <div class="userid inline">
+            <img src="./images/icon-youtube.svg" alt="youtube-icon" />
+            <p>Nathan F</p>
+          </div>
+          <div class="followers">
+            <p class="followers-count">8239</p>
+            <p class="followers-subtext">FOLLOWERS</p>
+          </div>
+          <div class="change negative-color inline">
+            <img src="./images/icon-down.svg" alt="down icon" />
+            <p>144 Today</p>
+          </div>
+        </div>
+      </section>
+
+      <section class="overview">
+        <h2>Overview-Today</h2>
+        <div class="overview-container">
+          <div class="overview-card">
+            <div class="overview-title">
+              <p class="sub-heading">Page Title</p>
+              <img src="./images/icon-facebook.svg" alt="facebook-icon" />
+            </div>
+            <div class="overview-data">
+              <p class="overview-count">87</p>
+              <div class="change positive-color inline">
+                <img src="./images/icon-up.svg" alt="" />
+                <span>3%</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="overview-card">
+            <div class="overview-title">
+              <p class="sub-heading">Likes</p>
+              <img src="./images/icon-facebook.svg" alt="facebook-icon" />
+            </div>
+            <div class="overview-data">
+              <p class="overview-count">52</p>
+              <div class="change negative-color inline">
+                <img src="./images/icon-down.svg" alt="" />
+                <span>2%</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="overview-card">
+            <div class="overview-title">
+              <p class="sub-heading">Likes</p>
+              <img src="./images/icon-instagram.svg" alt="instagram-icon" />
+            </div>
+            <div class="overview-data">
+              <p class="overview-count">5462</p>
+              <div class="change positive-color inline">
+                <img src="./images/icon-up.svg" alt="" />
+                <span>2257%</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="overview-card">
+            <div class="overview-title">
+              <p class="sub-heading">Profile Views</p>
+              <img src="./images/icon-instagram.svg" alt="instagram-icon" />
+            </div>
+            <div class="overview-data">
+              <p class="overview-count">52k</p>
+              <div class="change positive-color inline">
+                <img src="./images/icon-up.svg" alt="" />
+                <span>1375%</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="overview-card">
+            <div class="overview-title">
+              <p class="sub-heading">Retweets</p>
+              <img src="./images/icon-twitter.svg" alt="twitter-icon" />
+            </div>
+            <div class="overview-data">
+              <p class="overview-count">117</p>
+              <div class="change positive-color inline">
+                <img src="./images/icon-up.svg" alt="" />
+                <span>303%</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="overview-card">
+            <div class="overview-title">
+              <p class="sub-heading">Likes</p>
+              <img src="./images/icon-twitter.svg" alt="twitter-icon" />
+            </div>
+            <div class="overview-data">
+              <p class="overview-count">507</p>
+              <div class="change positive-color inline">
+                <img src="./images/icon-up.svg" alt="" />
+                <span>553%</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="overview-card">
+            <div class="overview-title">
+              <p class="sub-heading">Likes</p>
+              <img src="./images/icon-youtube.svg" alt="youtube-icon" />
+            </div>
+            <div class="overview-data">
+              <p class="overview-count">107</p>
+              <div class="change negative-color inline">
+                <img src="./images/icon-down.svg" alt="" />
+                <span>19%</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="overview-card">
+            <div class="overview-title">
+              <p class="sub-heading">Total Views</p>
+              <img src="./images/icon-youtube.svg" alt="youtube-icon" />
+            </div>
+            <div class="overview-data">
+              <p class="overview-count">1407</p>
+              <div class="change negative-color inline">
+                <img src="./images/icon-down.svg" alt="" />
+                <span>12%</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </div>
+
+    <script>
+      const toggleSwitch = document.getElementById("theme-toggle");
+
+      function updateTheme(isDark) {
+        document.body.classList.toggle("dark-mode", isDark);
+        localStorage.setItem("theme", isDark ? "dark" : "light");
+
+        document
+          .querySelectorAll(".overview-card, .flex-card")
+          .forEach((card) => {
+            if (isDark) {
+              card.setAttribute("id", "dark-theme");
+            } else {
+              card.removeAttribute("id");
+            }
+          });
+
+        document.documentElement.style.setProperty(
+          "--primary-color",
+          isDark ? "hsl(0, 0%, 100%)" : "hsl(230, 17%, 14%)"
+        );
+      }
+
+      toggleSwitch.addEventListener("change", () => {
+        updateTheme(toggleSwitch.checked);
+      });
+
+      const savedTheme = localStorage.getItem("theme") === "dark";
+      toggleSwitch.checked = savedTheme;
+      updateTheme(savedTheme);
+    </script>
+  </body>
+</html>
